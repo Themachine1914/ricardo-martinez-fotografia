@@ -1,4 +1,4 @@
-import { plans } from "../data/galleries"
+import { plans, whatsappUrl } from "../data/galleries"
 import { FadeIn, SectionHeading } from "./FadeIn"
 
 export function Plans() {
@@ -38,7 +38,11 @@ export function Plans() {
                   {plan.price}
                 </p>
                 <a
-                  href="#contacto"
+                  href={whatsappUrl(
+                    `Hola Ricardo, me interesa el ${plan.name} (${plan.price}). Quisiera reservar.`,
+                  )}
+                  target="_blank"
+                  rel="noreferrer"
                   className={`mt-8 inline-flex justify-center px-6 py-3 text-[11px] font-medium tracking-[0.28em] uppercase transition duration-500 ${
                     plan.featured
                       ? "border border-ink bg-ink text-ivory hover:bg-transparent hover:text-ink"

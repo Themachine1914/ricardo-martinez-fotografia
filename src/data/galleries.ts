@@ -202,6 +202,13 @@ export const plans = [
   },
 ]
 
+export const WHATSAPP_NUMBER = "18093159363"
+export const WHATSAPP_DISPLAY = "+1 (809) 315-9363"
+
+export function whatsappUrl(message: string) {
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
+}
+
 export const testimonials = [
   {
     quote:
