@@ -12,7 +12,7 @@ export function Footer() {
           />
         </a>
         <a
-          href="https://instagram.com/ricardomartinezfoto"
+          href="https://www.instagram.com/ricardomartinezfotografia/"
           target="_blank"
           rel="noreferrer"
           aria-label="Instagram"

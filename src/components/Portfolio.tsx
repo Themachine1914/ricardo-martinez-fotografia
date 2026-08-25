@@ -19,7 +19,7 @@ export function Portfolio() {
         <SectionHeading
           eyebrow="Portafolio"
           title="Historias de Amor"
-          subtitle="Bodas y sesiones seleccionadas — cada imagen, un instante que no se vuelve a repetir."
+          subtitle="Bodas, quinceañeras y sesiones seleccionadas — cada imagen, un instante que no se vuelve a repetir."
         />
 
         <div className="grid grid-cols-1 gap-3 md:auto-rows-[280px] md:grid-cols-12 md:grid-flow-dense md:gap-4 lg:auto-rows-[340px]">

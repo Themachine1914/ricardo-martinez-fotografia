@@ -14,6 +14,34 @@ export const ABOUT_IMAGE =
 
 export const photos: Photo[] = [
   {
+    src: "/images/quinceanera-jardin-retrato.jpg",
+    alt: "Quinceañera con vestido rosa y tiara, retrato al atardecer entre flores amarillas",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "featured",
+  },
+  {
+    src: "/images/quinceanera-jardin-cuerpo.jpg",
+    alt: "Quinceañera de cuerpo entero con vestido rosa voluminoso en un jardín",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "tall",
+  },
+  {
+    src: "/images/quinceanera-jardin-amplio.jpg",
+    alt: "Quinceañera bajo los árboles, vestido rosa y luz dorada en el jardín",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "wide",
+  },
+  {
+    src: "/images/quinceanera-jardin-detalle.jpg",
+    alt: "Retrato íntimo de quinceañera con los ojos cerrados, vestido rosa y tiara",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "tall",
+  },
+  {
     src: "/images/sofia-diego-vinedo.jpg",
     alt: "Sofía y Diego en un viñedo al atardecer, con la cordillera al fondo",
     wedding: "Sofía & Diego",
