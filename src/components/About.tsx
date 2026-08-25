@@ -25,9 +25,11 @@ export function About() {
               Las fotografío para que se sientan verdaderas.
             </p>
             <p className="mt-8 font-light leading-8 text-ink-soft">
-              Soy Ricardo Martinez, fotógrafo de bodas. Trabajo con un estilo
-              natural, documental y romántico: observo más de lo que dirijo, y
-              dejo que la luz, los gestos y los silencios cuenten la historia.
+              Soy Ricardo Martinez, fotógrafo de bodas. Resido en Santiago y
+              viajo al interior para acompañar celebraciones donde el amor las
+              lleve. Trabajo con un estilo natural, documental y romántico:
+              observo más de lo que dirijo, y dejo que la luz, los gestos y los
+              silencios cuenten la historia.
             </p>
             <p className="mt-5 font-light leading-8 text-ink-soft">
               Creo que el lujo de un recuerdo no está en la pose, sino en lo

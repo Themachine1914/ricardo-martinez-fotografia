@@ -22,7 +22,7 @@ export function Portfolio() {
           subtitle="Bodas y sesiones seleccionadas — cada imagen, un instante que no se vuelve a repetir."
         />
 
-        <div className="grid grid-cols-1 gap-3 md:auto-rows-[200px] md:grid-cols-12 md:grid-flow-dense md:gap-4 lg:auto-rows-[240px]">
+        <div className="grid grid-cols-1 gap-3 md:auto-rows-[280px] md:grid-cols-12 md:grid-flow-dense md:gap-4 lg:auto-rows-[340px]">
           {photos.map((photo, index) => (
             <FadeIn
               key={photo.src}
@@ -39,7 +39,9 @@ export function Portfolio() {
                   src={photo.src}
                   alt={photo.alt}
                   loading="lazy"
-                  className="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.06]"
+                  decoding="async"
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="h-full w-full object-cover object-center transition duration-700 ease-out group-hover:scale-[1.04]"
                 />
                 <span className="absolute inset-0 bg-ink/0 transition duration-500 group-hover:bg-ink/35" />
                 <span className="absolute inset-x-0 bottom-0 flex translate-y-2 flex-col items-center px-4 py-8 opacity-0 transition duration-500 group-hover:translate-y-0 group-hover:opacity-100">

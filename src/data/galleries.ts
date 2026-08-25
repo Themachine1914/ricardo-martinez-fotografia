@@ -14,6 +14,20 @@ export const ABOUT_IMAGE =
 
 export const photos: Photo[] = [
   {
+    src: "/images/sofia-diego-vinedo.jpg",
+    alt: "Sofía y Diego en un viñedo al atardecer, con la cordillera al fondo",
+    wedding: "Sofía & Diego",
+    location: "Viñedo · Interior",
+    span: "featured",
+  },
+  {
+    src: "/images/lucia-martin-ventana.jpg",
+    alt: "Retrato de Lucía junto a la ventana, luz suave de tarde",
+    wedding: "Lucía & Martín",
+    location: "Santiago",
+    span: "tall",
+  },
+  {
     src: "/images/013b8e45-850e-422d-8d57-e0ec6c96fe07.JPG",
     alt: "Valentina y Andrés en un patio íntimo al atardecer",
     wedding: "Valentina & Andrés",
@@ -132,24 +146,24 @@ export const testimonials = [
     quote:
       "Ricardo no posó nuestro día: lo acompañó. Cuando vimos las fotos, sentimos que volvíamos a estar ahí, en los silencios y en las risas que no sabíamos que alguien había visto.",
     names: "Isabella & Daniel",
-    place: "Caracas",
+    place: "Santiago",
   },
   {
     quote:
       "Hay fotógrafos que documentan una boda y hay quienes entienden el amor. Ricardo está en lo segundo. Cada imagen se siente honesta, cálida, irrepetible.",
     names: "Camila & Santiago",
-    place: "Valencia",
+    place: "Valle · Interior",
   },
   {
     quote:
       "Desde el primer encuentro supimos que estábamos en las manos correctas. El resultado es un álbum que no parece un recuento de eventos, sino una historia.",
     names: "Valentina & Andrés",
-    place: "Maracaibo",
+    place: "Santiago",
   },
   {
     quote:
       "Buscábamos algo íntimo, sin poses rígidas. Ricardo nos dio exactamente eso: luz hermosa, emoción verdadera y una calma que se siente en cada retrato.",
     names: "Elena & Mateo",
-    place: "Mérida",
+    place: "Interior",
   },
 ]
