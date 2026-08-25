@@ -70,7 +70,10 @@ export function Contact() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="mt-0.5 text-champagne" strokeWidth={1.5} />
-                <span>Reside en Santiago. Viaja al interior para bodas.</span>
+                <span>
+                  República Dominicana. Reside en Santiago y viaja a todo el país
+                  para bodas y quinceañeras.
+                </span>
               </li>
             </ul>
           </FadeIn>

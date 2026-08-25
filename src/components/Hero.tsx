@@ -21,7 +21,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         >
-          Wedding Photographer
+          Bodas y quinceañeras
         </motion.p>
 
         <motion.h1
@@ -42,12 +42,12 @@ export function Hero() {
         />
 
         <motion.p
-          className="font-display mt-7 max-w-lg text-lg font-normal text-ivory/85 italic md:text-xl"
+          className="font-display mt-7 max-w-xl text-lg font-normal text-ivory/85 italic md:text-xl"
           initial={reduce ? false : { opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.8 }}
         >
-          Capturando el amor en sus momentos más auténticos
+          Tú vive y disfruta cada segundo; yo me encargo de hacerlo eterno.
         </motion.p>
 
         <motion.a
