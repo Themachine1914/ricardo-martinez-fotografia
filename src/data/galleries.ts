@@ -10,7 +10,7 @@ export const HERO_IMAGE =
   "/images/b25e308f-5588-490f-ac16-3230109b13f7.JPG"
 
 export const ABOUT_IMAGE =
-  "/images/2096b612-0bb4-47cd-9c24-7a8aa4cbc1ea.JPG"
+  "/images/ricardo-martinez.png"
 
 export const photos: Photo[] = [
   {
