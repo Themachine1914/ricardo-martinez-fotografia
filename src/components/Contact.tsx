@@ -35,7 +35,7 @@ export function Contact() {
               <li className="flex items-start gap-3">
                 <Instagram size={16} className="mt-0.5 text-champagne" strokeWidth={1.5} />
                 <a
-                  href="https://www.instagram.com/ricardomartinezfotografia/"
+                  href="https://www.instagram.com/p/DbCcF5IDCtx/?igsi=b2Z1dWpmMjFzemV5"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-ink"
