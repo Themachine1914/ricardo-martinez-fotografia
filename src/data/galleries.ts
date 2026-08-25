@@ -169,6 +169,39 @@ export const photos: Photo[] = [
   },
 ]
 
+export const plans = [
+  {
+    name: "Plan A",
+    price: "RD$ 23,500.00",
+    featured: false,
+    includes: [
+      "Álbum 8×12\" con 55 fotos",
+      "Fotos digitales editadas en HD",
+      "2 copias 8×10 o un póster enmarcado 20×25",
+    ],
+  },
+  {
+    name: "Plan B",
+    price: "RD$ 29,500.00",
+    featured: true,
+    includes: [
+      "Álbum 10×24\" · 20 páginas · 60 fotografías",
+      "Fotos editadas en HD",
+      "Impresión enmarcada 20×25",
+    ],
+  },
+  {
+    name: "Plan C",
+    price: "RD$ 40,500.00",
+    featured: false,
+    includes: [
+      "Photo Book 12×24\" · 30 páginas · 75 fotografías",
+      "Póster enmarcado 20×30",
+      "Fotos digitales editadas en HD",
+    ],
+  },
+]
+
 export const testimonials = [
   {
     quote:

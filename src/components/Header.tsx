@@ -6,6 +6,7 @@ import { createPortal } from "react-dom"
 const links = [
   { href: "#inicio", label: "Inicio" },
   { href: "#portafolio", label: "Portafolio" },
+  { href: "#planes", label: "Planes" },
   { href: "#sobre-mi", label: "Sobre mí" },
   { href: "#contacto", label: "Contacto" },
 ]
@@ -51,7 +52,7 @@ export function Header() {
           />
         </a>
 
-        <nav className="hidden items-center gap-10 md:flex" aria-label="Principal">
+        <nav className="hidden items-center gap-7 lg:gap-10 md:flex" aria-label="Principal">
           {links.map((link) => (
             <a
               key={link.href}
