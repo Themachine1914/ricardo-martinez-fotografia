@@ -8,7 +8,7 @@ export function Testimonials() {
         <SectionHeading
           eyebrow="Palabras"
           title="Lo que recuerdan"
-          subtitle="Parejas que confiaron en mí el día más importante de su historia."
+          subtitle="Familias que confiaron en mí para inmortalizar el día más importante de su historia."
         />
 
         <div className="grid gap-10 md:grid-cols-2 md:gap-x-16 md:gap-y-16">

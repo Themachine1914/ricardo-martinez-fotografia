@@ -7,12 +7,40 @@ export type Photo = {
 }
 
 export const HERO_IMAGE =
-  "/images/b25e308f-5588-490f-ac16-3230109b13f7.JPG"
+  "/images/hero-boda-vinedo.jpg"
 
 export const ABOUT_IMAGE =
-  "/images/2096b612-0bb4-47cd-9c24-7a8aa4cbc1ea.JPG"
+  "/images/ricardo-martinez.jpg"
 
 export const photos: Photo[] = [
+  {
+    src: "/images/quinceanera-jardin-retrato.jpg",
+    alt: "Quinceañera con vestido rosa y tiara, retrato al atardecer entre flores amarillas",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "featured",
+  },
+  {
+    src: "/images/quinceanera-jardin-cuerpo.jpg",
+    alt: "Quinceañera de cuerpo entero con vestido rosa voluminoso en un jardín",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "tall",
+  },
+  {
+    src: "/images/quinceanera-jardin-amplio.jpg",
+    alt: "Quinceañera bajo los árboles, vestido rosa y luz dorada en el jardín",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "wide",
+  },
+  {
+    src: "/images/quinceanera-jardin-detalle.jpg",
+    alt: "Retrato íntimo de quinceañera con los ojos cerrados, vestido rosa y tiara",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "tall",
+  },
   {
     src: "/images/sofia-diego-vinedo.jpg",
     alt: "Sofía y Diego en un viñedo al atardecer, con la cordillera al fondo",
@@ -189,6 +217,46 @@ export const photos: Photo[] = [
     span: "tall",
   },
 ]
+
+export const plans = [
+  {
+    name: "Plan A",
+    price: "RD$ 23,500.00",
+    featured: false,
+    includes: [
+      "Álbum 8×12\" con 55 fotos",
+      "Fotos digitales editadas en HD",
+      "2 copias 8×10 o un póster enmarcado 20×25",
+    ],
+  },
+  {
+    name: "Plan B",
+    price: "RD$ 29,500.00",
+    featured: true,
+    includes: [
+      "Álbum 10×24\" · 20 páginas · 60 fotografías",
+      "Fotos editadas en HD",
+      "Impresión enmarcada 20×25",
+    ],
+  },
+  {
+    name: "Plan C",
+    price: "RD$ 40,500.00",
+    featured: false,
+    includes: [
+      "Photo Book 12×24\" · 30 páginas · 75 fotografías",
+      "Póster enmarcado 20×30",
+      "Fotos digitales editadas en HD",
+    ],
+  },
+]
+
+export const WHATSAPP_NUMBER = "18093159363"
+export const WHATSAPP_DISPLAY = "+1 (809) 315-9363"
+
+export function whatsappUrl(message: string) {
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
+}
 
 export const testimonials = [
   {

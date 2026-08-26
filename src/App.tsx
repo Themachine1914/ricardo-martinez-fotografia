@@ -4,6 +4,7 @@ import { Contact } from "./components/Contact"
 import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Hero } from "./components/Hero"
+import { Plans } from "./components/Plans"
 import { Portfolio } from "./components/Portfolio"
 import { Testimonials } from "./components/Testimonials"
 
@@ -16,6 +17,7 @@ function Home() {
         <Portfolio />
         <About />
         <Testimonials />
+        <Plans />
         <Contact />
       </main>
       <Footer />

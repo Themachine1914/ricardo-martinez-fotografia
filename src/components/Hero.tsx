@@ -8,9 +8,9 @@ export function Hero() {
     <section id="inicio" className="relative h-svh min-h-[640px] overflow-hidden">
       <img
         src={HERO_IMAGE}
-        alt="Pareja de recién casados en un momento íntimo al atardecer"
+        alt="Pareja de recién casados frente a frente en un viñedo al atardecer"
         fetchPriority="high"
-        className="absolute inset-0 h-full w-full object-cover object-[center_35%]"
+        className="absolute inset-0 h-full w-full object-cover object-[center_40%]"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-ink/45 via-ink/35 to-ink/55" />
 
@@ -21,7 +21,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         >
-          Wedding Photographer
+          Bodas y quinceañeras
         </motion.p>
 
         <motion.h1
@@ -42,12 +42,12 @@ export function Hero() {
         />
 
         <motion.p
-          className="font-display mt-7 max-w-lg text-lg font-normal text-ivory/85 italic md:text-xl"
+          className="font-display mt-7 max-w-xl text-lg font-normal text-ivory/85 italic md:text-xl"
           initial={reduce ? false : { opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.8 }}
         >
-          Capturando el amor en sus momentos más auténticos
+          Tú vive y disfruta cada segundo; yo me encargo de hacerlo eterno.
         </motion.p>
 
         <motion.a
