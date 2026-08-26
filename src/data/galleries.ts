@@ -139,6 +139,55 @@ export const photos: Photo[] = [
     location: "Ceremonia íntima",
     span: "wide",
   },
+  {
+    src: "/images/fernanda-bruno-baile-calle.jpg",
+    alt: "Fernanda y Bruno bailando en una calle colonial, ella con vestido rosa",
+    wedding: "Fernanda & Bruno",
+    location: "Zona Colonial",
+    span: "featured",
+  },
+  {
+    src: "/images/fernanda-bruno-porton-sepia.jpg",
+    alt: "Fernanda y Bruno frente a un portón colonial, en tono sepia",
+    wedding: "Fernanda & Bruno",
+    location: "Zona Colonial",
+    span: "tall",
+  },
+  {
+    src: "/images/fernanda-bruno-ramo-color.jpg",
+    alt: "Retrato de Fernanda y Bruno con ramo de flores rosas, mirada cómplice",
+    wedding: "Fernanda & Bruno",
+    location: "Zona Colonial",
+    span: "featured",
+  },
+  {
+    src: "/images/fernanda-bruno-auto-vintage.jpg",
+    alt: "Fernanda y Bruno junto a un auto vintage, en blanco y negro",
+    wedding: "Fernanda & Bruno",
+    location: "Zona Colonial",
+    span: "wide",
+  },
+  {
+    src: "/images/fernanda-bruno-beso-calle.jpg",
+    alt: "Beso de Fernanda y Bruno en una calle empedrada al anochecer",
+    wedding: "Fernanda & Bruno",
+    location: "Zona Colonial",
+    span: "square",
+  },
+  {
+    src: "/images/fernanda-bruno-palomas.jpg",
+    alt: "Palomas alzando el vuelo frente a la pareja, detalle artístico en blanco y negro",
+    wedding: "Fernanda & Bruno",
+    location: "Zona Colonial",
+    span: "wide",
+  },
+  {
+    src: "/images/valeria-puerta-azul.jpg",
+    alt: "Valeria junto a una puerta azul y flores colgantes, vestido floral",
+    wedding: "Valeria",
+    location: "Casco Colonial",
+    span: "tall",
+  },
 ]
 
 export const testimonials = [
