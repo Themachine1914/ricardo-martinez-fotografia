@@ -7,10 +7,10 @@ export type Photo = {
 }
 
 export const HERO_IMAGE =
-  "/images/b25e308f-5588-490f-ac16-3230109b13f7.JPG"
+  "/images/hero-boda-vinedo.jpg"
 
 export const ABOUT_IMAGE =
-  "/images/ricardo-martinez.png"
+  "/images/ricardo-martinez.jpg"
 
 export const photos: Photo[] = [
   {

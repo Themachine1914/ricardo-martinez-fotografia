@@ -8,9 +8,9 @@ export function Hero() {
     <section id="inicio" className="relative h-svh min-h-[640px] overflow-hidden">
       <img
         src={HERO_IMAGE}
-        alt="Pareja de recién casados en un momento íntimo al atardecer"
+        alt="Pareja de recién casados frente a frente en un viñedo al atardecer"
         fetchPriority="high"
-        className="absolute inset-0 h-full w-full object-cover object-[center_35%]"
+        className="absolute inset-0 h-full w-full object-cover object-[center_40%]"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-ink/45 via-ink/35 to-ink/55" />
 

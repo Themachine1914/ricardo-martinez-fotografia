@@ -18,7 +18,7 @@ export function About() {
               <img
                 src={ABOUT_IMAGE}
                 alt="Retrato de Ricardo Martinez, fotógrafo de bodas y quinceañeras"
-                className="relative aspect-[2/3] w-full object-cover object-top"
+                className="relative aspect-[4/5] w-full object-cover object-[center_18%]"
               />
             </div>
           </FadeIn>
