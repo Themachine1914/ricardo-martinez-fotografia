@@ -13,7 +13,7 @@ export function About() {
               <div className="absolute -inset-3 border border-champagne/40 md:-inset-5" aria-hidden="true" />
               <img
                 src={ABOUT_IMAGE}
-                alt="Retrato de novia a contraluz, representando el estilo de Ricardo Martinez"
+                alt="Retrato de novia a contraluz, representando el estilo de Ricardo Martínez"
                 className="relative aspect-[3/4] w-full object-cover"
               />
             </div>
@@ -25,7 +25,7 @@ export function About() {
               Las fotografío para que se sientan verdaderas.
             </p>
             <p className="mt-8 font-light leading-8 text-ink-soft">
-              Soy Ricardo Martinez, fotógrafo de bodas. Resido en Santiago y
+              Soy Ricardo Martínez, fotógrafo de bodas. Resido en Santiago y
               viajo al interior para acompañar celebraciones donde el amor las
               lleve. Trabajo con un estilo natural, documental y romántico:
               observo más de lo que dirijo, y dejo que la luz, los gestos y los
@@ -42,7 +42,7 @@ export function About() {
               encantaría caminarlo a tu lado — con calma, con respeto y con
               la mirada atenta de quien sabe que este momento no se repite.
             </p>
-            <p className="font-display mt-10 text-xl text-ink">Ricardo Martinez</p>
+            <p className="font-display mt-10 text-xl text-ink">Ricardo Martínez</p>
             <p className="mt-1 text-[11px] tracking-[0.28em] text-champagne uppercase">
               Wedding Photographer
             </p>

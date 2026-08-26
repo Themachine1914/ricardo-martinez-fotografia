@@ -13,7 +13,7 @@ export function Contact() {
     const message = String(data.get("message") ?? "").trim()
 
     const lines = [
-      `Hola Ricardo, soy ${name}.`,
+      `Hola Ricardo Martínez, soy ${name}.`,
       email ? `Email: ${email}` : "",
       date ? `Fecha: ${date}` : "",
       message,
@@ -42,7 +42,7 @@ export function Contact() {
                 <Phone size={16} className="mt-0.5 text-champagne" strokeWidth={1.5} />
                 <a
                   href={whatsappUrl(
-                    "Hola Ricardo, me gustaría reservar una sesión.",
+                    "Hola Ricardo Martínez, me gustaría reservar una sesión.",
                   )}
                   target="_blank"
                   rel="noreferrer"
