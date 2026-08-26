@@ -8,13 +8,13 @@ export function Footer() {
         <a href="#inicio" aria-label="Volver al inicio">
           <img
             src="/logo.png"
-            alt="Ricardo Martinez Fotografía Studio"
+            alt="Ricardo Martínez Fotografía Studio"
             className="h-14 w-auto opacity-80"
           />
         </a>
         <div className="flex items-center gap-5">
           <a
-            href={whatsappUrl("Hola Ricardo, me gustaría reservar una sesión.")}
+            href={whatsappUrl("Hola Ricardo Martínez, me gustaría reservar una sesión.")}
             target="_blank"
             rel="noreferrer"
             aria-label={`WhatsApp ${WHATSAPP_DISPLAY}`}
@@ -33,7 +33,7 @@ export function Footer() {
           </a>
         </div>
         <p className="text-[11px] tracking-[0.18em] text-stone uppercase">
-          © {new Date().getFullYear()} Ricardo Martinez · All rights reserved
+          © {new Date().getFullYear()} Ricardo Martínez · All rights reserved
         </p>
       </div>
     </footer>

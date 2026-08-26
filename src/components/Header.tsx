@@ -42,10 +42,10 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:h-[5.5rem] md:px-8">
-        <a href="#inicio" className="relative z-50 block" aria-label="Ricardo Martinez — inicio">
+        <a href="#inicio" className="relative z-50 block" aria-label="Ricardo Martínez — inicio">
           <img
             src="/logo.png"
-            alt="Ricardo Martinez Fotografía Studio"
+            alt="Ricardo Martínez Fotografía Studio"
             className={`h-12 w-auto origin-left transition duration-500 md:h-14 ${
               light ? "" : "brightness-0 invert"
             }`}

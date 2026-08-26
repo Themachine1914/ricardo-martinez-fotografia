@@ -17,7 +17,7 @@ export function About() {
               <div className="absolute -inset-3 border border-champagne/40 md:-inset-5" aria-hidden="true" />
               <img
                 src={ABOUT_IMAGE}
-                alt="Retrato de Ricardo Martinez, fotógrafo de bodas y quinceañeras"
+                alt="Retrato de Ricardo Martínez, fotógrafo de bodas y quinceañeras"
                 className="relative aspect-[4/5] w-full object-cover object-[center_18%]"
               />
             </div>
@@ -64,7 +64,7 @@ export function About() {
               </div>
             </dl>
 
-            <p className="font-display mt-10 text-xl text-ink">Ricardo Martinez</p>
+            <p className="font-display mt-10 text-xl text-ink">Ricardo Martínez</p>
             <p className="mt-1 text-[11px] tracking-[0.28em] text-champagne uppercase">
               Bodas y quinceañeras
             </p>

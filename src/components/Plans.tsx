@@ -39,7 +39,7 @@ export function Plans() {
                 </p>
                 <a
                   href={whatsappUrl(
-                    `Hola Ricardo, me interesa el ${plan.name} (${plan.price}). Quisiera reservar.`,
+                    `Hola Ricardo Martínez, me interesa el ${plan.name} (${plan.price}). Quisiera reservar.`,
                   )}
                   target="_blank"
                   rel="noreferrer"
