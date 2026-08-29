@@ -42,6 +42,13 @@ export const photos: Photo[] = [
     span: "tall",
   },
   {
+    src: "/images/quinceanera-jardin-azul.jpg",
+    alt: "Quinceañera con vestido azul y tiara en un jardín panorámico",
+    wedding: "Quinceañera",
+    location: "Jardín · Sesión",
+    span: "wide",
+  },
+  {
     src: "/images/sofia-diego-vinedo.jpg",
     alt: "Sofía y Diego en un viñedo al atardecer, con la cordillera al fondo",
     wedding: "Sofía & Diego",
